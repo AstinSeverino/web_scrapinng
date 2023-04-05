@@ -1,0 +1,10 @@
+links = $x('//span[@class="titleline"]/a/@href')
+text_links = $x('//span[@class="titleline"]/a/text()')
+score = $x('//span[@class="subline"]/span[@class="score"]/text()')
+date = $x('//span[@class="subline"]/span[@class="age"]/@title')
+
+
+
+
+
+
